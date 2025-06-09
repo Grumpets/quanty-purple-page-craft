@@ -10,6 +10,11 @@ const HeroSection = () => {
         </div>
       </div>
       
+      <div className="mb-6 animate-fade-in flex items-center justify-center gap-2">
+        <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg shadow-green-400/50"></div>
+        <span className="text-green-400 font-medium">Quanty: Online</span>
+      </div>
+      
       <div className="max-w-5xl mx-auto animate-slide-up">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           <span className="text-text-primary">Take Control with</span>
@@ -25,9 +30,6 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button size="lg" className="gradient-purple-light text-white hover:opacity-90 transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
             Add to Server
-          </Button>
-          <Button size="lg" variant="outline" className="border-purple-medium text-text-primary hover:bg-purple-medium/20 px-8 py-3 text-lg">
-            View Commands
           </Button>
         </div>
       </div>
