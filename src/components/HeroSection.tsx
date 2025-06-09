@@ -4,12 +4,6 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-20 relative">
-      <div className="mb-8 animate-fade-in">
-        <div className="inline-flex items-center px-4 py-2 bg-card-bg rounded-full border border-purple-medium/30">
-          <span className="text-text-secondary text-sm">Quanty v2.0 Bot Engine is now live!</span>
-        </div>
-      </div>
-      
       <div className="mb-6 animate-fade-in flex items-center justify-center gap-2">
         <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg shadow-green-400/50"></div>
         <span className="text-green-400 font-medium">Quanty: Online</span>
