@@ -12,10 +12,9 @@ const Header = () => {
       </div>
       
       <nav className="hidden md:flex items-center space-x-8">
-        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Analytics</a>
-        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Insights</a>
-        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Quanty Pro</a>
-        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Resources</a>
+        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Home</a>
+        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Documentation</a>
+        <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Quanty+</a>
         <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Support</a>
       </nav>
       
